@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def floatNum(s, c, f):
 	return (-1)**s*2**(c - 1023)*(1 + f)
 
@@ -37,7 +36,7 @@ def machineEpsilon():
 	# Constants
 	epsilon = 1
 	count = 0
-	
+
 	# Shift our epsilon value one bit over (by dividing by 2) at a time until it can no longer be reduced
 	while (1 + epsilon / 2 > 1):
 		epsilon = epsilon / 2
@@ -97,7 +96,7 @@ def machineEpsilon():
 	# Constants
 	epsilon = 1
 	count = 0
-	
+
 	# Shift our epsilon value one bit over (by dividing by 2) at a time until it can no longer be reduced
 	while (1 + epsilon / 2 > 1):
 		epsilon = epsilon / 2
@@ -118,4 +117,3 @@ def main():
 # ==================================================
 if __name__ == "__main__":
 	main()
->>>>>>> df807cb4c3d48e521e288700e6b4420d69ede4c5
